@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
- * 本类实现WebApi通过LinkText定位元素
+ * 本类实现WebApi通过CSS定位元素
  */
 public class FindElementByCss {
     public static void main(String args[]){
