@@ -1,4 +1,4 @@
-package GetElementVal;
+package com.selenium.webapi.GetElementVal;
 
 import com.selenium.webapi.FindElement.FindElementByClassName;
 import org.openqa.selenium.WebDriver;
