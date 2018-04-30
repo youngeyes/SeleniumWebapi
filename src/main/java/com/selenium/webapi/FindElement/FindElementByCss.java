@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * 本类实现WebApi通过LinkText定位元素
  */
-public class FindElementByCssText {
+public class FindElementByCss {
     public static void main(String args[]){
         WebDriver driver = new ChromeDriver();
         // 获取resources下静态文件的路径
