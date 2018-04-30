@@ -7,6 +7,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.List;
 
+/**
+ * 本类实现WebApi通过tagName定位元素
+ */
 public class FindElementByTagName {
     public static void main(String args[]) {
         WebDriver driver = new ChromeDriver();
