@@ -9,5 +9,15 @@
 <input type="text" name="input1"/>
 <input type="text" name="input3"/>
 <input type="text" name="input4"/>
+<input type="button" id="btn2" value="点击进入iframe2" onclick="click_iframe1()">
+<iframe src="" frameborder="0" id="child-iframe">
+
+</iframe>
+<script type="text/javascript">
+    function click_iframe1() {
+        var iframe = document.getElementById("child-iframe");
+        iframe.setAttribute("src","find_element_by_css.html");
+    }
+</script>
 </body>
 </html>
