@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="container" id="main">
+    <div>
+        <input type="button" id="btn1" value="点击进入iframe1" onclick="click_iframe1()">
+        <input type="text" id="text">
+    </div>
+    <div id="iframe-div" style="width: 1000px;height: 1000px">
+        <iframe src="" frameborder="0" id="parent-iframe" name="pframe">
+
+        </iframe>
+    </div>
+
+</div>
+<script type="text/javascript">
+    function click_iframe1() {
+        var parent_iframe = document.getElementById("parent-iframe");
+        parent_iframe.setAttribute("src", "find_element_by_name.html");
+    }
+</script>
+</body>
+</html>
